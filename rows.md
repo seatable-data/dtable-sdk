@@ -41,6 +41,19 @@ Insert a new row with rowData at the end of the table
 
 null
 
+### deleteRowById(table, rowId)
+
+Delete a row in the table by table an tableId
+
+**parameters：**
+
+* `table`: the sub-table, object
+* `rowId`: row id, string
+
+**return：**
+
+null
+
 ### modifyRow(table, row, updated)
 
 modify row date in a table
