@@ -28,6 +28,19 @@ Get a row by its ID
 
 row, object
 
+### getRowsById(table, rowIds)
+
+Get rows by its ids
+
+**parameters：**
+
+* `table`: the sub-table, object
+* `rowIds`: rowIds, array
+
+**return：**
+
+rows, array
+
 ### appendRow(table, rowData)
 
 Insert a new row with rowData at the end of the table
@@ -94,3 +107,31 @@ Get the row's init data which will be insert current table by view, table, row_i
 **return：**
 
 rowdata, object
+
+### addRow(tableName, rowData, viewName)
+
+Add a new row into table by tableName and viewName
+
+**parameters：**
+
+* `tableName`: the table's name used to insert new row, string,
+* `rowData`:  the inserted row's data, object
+* `viewName`: the view's name used to insert new row, string
+
+**return：**
+
+null
+
+### getGroupRows(view, table)
+
+Get rows data of grouped view through table, view
+
+**parameters：**
+
+* `view`: the view used to get rows， object
+* `table`:  the table used to get rows, object
+
+**return：**
+
+rows, array
+
