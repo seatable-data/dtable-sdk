@@ -1,6 +1,6 @@
 # DTable SDK
 
-DTable SDK enable you to interact with a base in SeaTable server in realtime.
+DTable SDK enable you to interact with a base in SeaTable server in realtime. It is also used in plugin development.
 
 > A base is a collection of tables. A base is originally called dtable in our code.
 
